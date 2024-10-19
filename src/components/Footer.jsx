@@ -7,8 +7,8 @@ const Footer = () => {
     <main className='bg-gray-100'>
       <div className='grid grid-cols-2 p-4'>
         <div>
-          <p  className='w-[60vh] text-center font-semibold font-mono'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi nisi ducimus delectus voluptas culpa atque magnam ad consequatur.
+          <p  className='w-[70vh] text-center font-semibold font-mono'>
+          This Platform simplifies HR tasks by streamlining employee data management, attendance tracking, performance evaluations, and communication, all in one central system to enhance productivity
           </p>
         </div>
         <div className='flex justify-around gap-5 items-center'>
