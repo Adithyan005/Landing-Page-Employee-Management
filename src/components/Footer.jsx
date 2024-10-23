@@ -5,10 +5,10 @@ import tcs from "../assets/6.png"
 const Footer = () => {
   return (
     <main className='bg-gray-100'>
-      <div className='grid grid-cols-2 p-4'>
+      <div className='grid grid-cols-2 p-3'>
         <div>
           <p  className='w-[70vh] text-center font-semibold font-mono'>
-          This Platform simplifies HR tasks by streamlining employee data management, attendance tracking, performance evaluations, and communication, all in one central system to enhance productivity
+          This Platform simplifies HR tasks by streamlining employee data all in one system
           </p>
         </div>
         <div className='flex justify-around gap-5 items-center'>
