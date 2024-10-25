@@ -12,17 +12,17 @@ const Home = () => {
   };
   return (
     <main style={background}>
-      <div className="ml-7 container min-h-[28rem] flex space-x-4 justify-center items-center">
-        <div className="flex flex-col justify-center items-center gap-3">
-          <h1 className="text-4xl font-semibold font-cursive text-center">
+      <div className="ml-7 container mt-10 md:min-h-[28rem] flex space-x-4 justify-center items-center sm-1:">
+        <div className="flex flex-col justify-center max-md:text-center items-center gap-3">
+          <h1 className="md:text-4xl text-sm font-semibold font-cursive text-center">
             A Comprehensive Employee Management Platform
           </h1>
-          <h1 className="text-2xl font-cursive">
+          <h1 className="md:text-2xl text-[10px] font-cursive">
             Streamlining the businesses with an efficient platform
           </h1>
           <button
             onClick={handleclick}
-            className="bg-lightpink rounded-xl shadow-lg p-3"
+            className="bg-lightpink max-md:text-[10px] rounded-xl shadow-lg p-1 md:p-3 hover:scale-110"
           >
             Explore
           </button>
@@ -30,7 +30,7 @@ const Home = () => {
         <img
           src="https://static.vecteezy.com/system/resources/previews/027/309/403/original/office-employee-with-ai-generated-free-png.png"
           alt=""
-          className="w-[20rem]"
+          className="md:w-[20rem] w-[7rem]"
         />
         <div className="pt-6"></div>
       </div>

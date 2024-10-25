@@ -16,6 +16,14 @@ export default {
         cursive:["Prociono","serif"],
         stylish:["Satisfy","cursive"]
       },
+      screens: {
+        'sm-1':'320px',
+        'sm-2': '640px',  
+        'md': '768px',  
+        'lg': '1024px',  
+        'xl': '1280px',  
+        '2xl': '1536px',
+      }
     },
   },
   plugins: [],

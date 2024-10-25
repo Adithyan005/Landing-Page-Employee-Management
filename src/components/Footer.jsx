@@ -1,20 +1,18 @@
 import React from 'react'
-import google from "../assets/3.png"
-import zoho from "../assets/5.png"
-import tcs from "../assets/6.png"
+import logo from "../assets/1.png"
+
 const Footer = () => {
   return (
-    <main className='bg-gray-100'>
-      <div className='grid grid-cols-2 p-4'>
-        <div>
-          <p  className='w-[70vh] text-center font-semibold font-mono'>
-          This Platform simplifies HR tasks by streamlining employee data all in one system
-          </p>
+    <main className=''>
+      <div className='grid grid-cols-2 gap-12 p-2 h-[6rem] border-t-2 border-b-zinc-900'>
+        <div className='flex justify-center items-center gap-2'>
+          <img src={logo} alt="" className="w-[7rem]"/>
+          <h1>Tango</h1>
         </div>
-        <div className='flex justify-around gap-5 items-center'>
-          <img src={google} alt="" className='w-24 h-12'/>
-          <img src={zoho} alt="" className='w-24 h-16'/>
-          <img src={tcs} alt="" className='w-24 h-12'/>
+        <div className='flex justify-center gap-x-10 items-center '>
+          <img src="https://www.pngkit.com/png/full/178-1783296_g-transparent-circle-google-logo.png" alt="" className='w-12 h-12 rounded-full shadow-xl'/>
+          <img src="https://static-00.iconduck.com/assets.00/zoho-icon-2048x2048-jvw3wrfg.png" alt="" className='w-12 h-12 rounded-full shadow-xl'/>
+          <img src="https://logodix.com/logo/1703152.png" alt="" className='w-12 h-12 rounded-full shadow-xl'/>
         </div>
       </div>
     </main>  
