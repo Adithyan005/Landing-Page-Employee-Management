@@ -12,7 +12,7 @@ const Home = () => {
   };
   return (
     <main style={background}>
-      <div className="ml-7 container mt-10 md:min-h-[28rem] flex space-x-4 justify-center items-center sm-1:">
+      <div className="ml-7 container mt-10 md:min-h-[25rem] flex space-x-4 justify-center items-center ">
         <div className="flex flex-col justify-center max-md:text-center items-center gap-3">
           <h1 className="md:text-4xl text-sm font-semibold font-cursive text-center">
             A Comprehensive Employee Management Platform

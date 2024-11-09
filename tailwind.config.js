@@ -9,7 +9,7 @@ export default {
     extend: {
       colors:{
         pink:"#fefae0",
-        blue:"#00FFF7",
+        
         lightpink:"#F7C59F"
       },
       fontFamily:{
